@@ -6,7 +6,7 @@ public class Scores {
 		return javaScores+cScores+dbScores;
 	}
 	public double avg() {
-		return totalScores()/3;
+		return totalScores()/3.0;
 	}
 	public void showTotal() {
 		System.out.println("×Ü³É¼¨£º"+totalScores());
