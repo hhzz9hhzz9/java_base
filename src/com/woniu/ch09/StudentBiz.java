@@ -25,7 +25,7 @@ public class StudentBiz {
 		}
 	}
 
-	public boolean searchName(int start, int end, String name) {
+	public boolean searchName(int start, int end, String name) {//Ñ°ÕÒÃû×Ö
 		boolean find = false;
 		for (int i = start - 1; i < end; i++) {
 			if (names[i].equals(name)) {

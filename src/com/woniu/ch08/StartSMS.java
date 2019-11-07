@@ -37,8 +37,9 @@ public class StartSMS {
 	        		System.out.println("Ð»Ð»ÄúµÄÊ¹ÓÃ£¡");
 	        		con=false;
 	        		break;
-	       }
-		}while(con);		
+	       }input.close();
+		}while(con);
+		
 	}
 
 }
