@@ -25,7 +25,8 @@ public class AccountTest {
 			}
 			else{
 				System.out .print("—°‘Ò”–ŒÛ£°");
-			}		
+			}
+			input.close();
 		}
 
 	}
